@@ -122,7 +122,7 @@ controlador.montarReqEdicao = function(req, res) {
                 'Content-Type': 'application/x-www-form-urlencoded'
             },
             proxy:{
-                host: "localhost",
+                host: "191.252.38.248",
                 port: 8085
             }
         }
@@ -137,7 +137,7 @@ controlador.montarReqEdicao = function(req, res) {
 controlador.montarReqDelete = function (req, res) {
     axios.delete('/aluno/' + req.params.cpf,{
         proxy:{
-            host: "localhost",
+            host: "191.252.38.248",
             port: 8085
         }
     }).then(function () {
