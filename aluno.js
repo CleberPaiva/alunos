@@ -25,7 +25,7 @@ var aluno = banco.define("aluno",{
 })
 
 //Esta parte faz a criação das tabelas no banco de dados, 
-//comentada após a primeira utilização para não ficar reiniciando os dados.
+//comentada após a primeira utilização, para não ficar reiniciando os dados.
 //aluno.sync() 
 
 module.exports = aluno
